@@ -31,14 +31,14 @@ By integrating a motion-detection filtering module, the system achieves signific
 
 The model was trained and evaluated using the following datasets:
 
-### Training Data: RWF-2000
+### Training Data: RWF-2000 (https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection)
 
 - **Source:** Large-scale video database collected from real-world surveillance cameras on YouTube.
 - **Size:** 2,000 clips (1,000 Violent, 1,000 Non-Violent).
 - **Format:** 5-second clips at 30 FPS.
 - **Usage:** Used for training the core Deep Learning model to recognize real-world violence patterns.
 
-### Testing Data: Surveillance Camera Fight Dataset
+### Testing Data: Surveillance Camera Fight Dataset (https://github.com/seymanurakti/fight-detection-surv-dataset)
 
 - **Source:** A collection of YouTube videos containing specific fight instances and regular surveillance footage.
 - **Size:** 300 videos total (150 Fight, 150 Non-Fight).
@@ -96,3 +96,4 @@ To run real-time inference on a video file:
 ```bash
 python inference.py --video path/to/your/video.mp4 --model_path path/to/model.h5
 ```
+
