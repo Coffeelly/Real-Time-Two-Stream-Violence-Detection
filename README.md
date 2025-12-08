@@ -74,26 +74,4 @@ The system was tested on videos with static cameras and varying levels of activi
 | **Latency**     | ~0.98s      | Maximum processing latency (end-to-end).                    |
 | **GPU Savings** | Up to 90.8% | Compared to continuous processing without motion filtering. |
 
-## Installation
-
-1.  **Clone the repository**
-
-    ```bash
-    git clone [https://github.com/Coffeelly/Real-Time-Two-Stream-Violence-Detection.git)
-    cd Real-Time-Two-Stream-Violence-Detection
-    ```
-
-2.  **Install Dependencies**
-    ```bash
-    pip install tensorflow opencv-python rtmlib numpy
-    ```
-    _Note: Ensure you have the correct CUDA/cuDNN drivers installed for GPU acceleration._
-
-## Usage
-
-To run real-time inference on a video file:
-
-```bash
-python inference.py --video path/to/your/video.mp4 --model_path path/to/model.h5
-```
 
