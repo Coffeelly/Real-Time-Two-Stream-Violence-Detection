@@ -1,4 +1,4 @@
-# Two-Stream Real-Time Violence Detection
+# Real-time Violence Detection in Videos Based on Skeleton and Frame Grouping Using ConvLSTM
 
 **A robust, privacy-preserving, and computationally efficient system for detecting violent activity in real-time video streams.**
 
@@ -73,5 +73,6 @@ The system was tested on videos with static cameras and varying levels of activi
 | **F1-Score**    | 78.62%      | Balanced precision and recall.                              |
 | **Latency**     | ~0.98s      | Maximum processing latency (end-to-end).                    |
 | **GPU Savings** | Up to 90.8% | Compared to continuous processing without motion filtering. |
+
 
 
